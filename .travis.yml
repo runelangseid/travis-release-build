@@ -1,5 +1,10 @@
+language: php
+
 deploy:
   provider: releases
   api_key:
     secure: pCc8jaGCc9VfJZZjEpYPccOAKm156eLa2stXNCwzoqHbVum+cDiyF97uyG+0SkdyRvM3Gb9bHdWL2ukqkl91n/w8zGjgImDitMaD5/TtKfBUq24e5wkssGIWj3Sf+Gh/+hv12CNax38gmGralpUGkSKR31eJB61rCS78mITnW8gvGYIIlBdjzexNYWja9+S14hAdtQ8lqcoqrBkLdzFkfprE6j+x3fNHZVw8tDzy8Gm1HKOAdnun30Wf9c8My4JARXqM1fCdaPO0ZqJn9MMqPgd3rnIAaYFNQNhe1to6I+unrmXG5xCS8fDeOoMdijKSoKY/eAX72jwO1F98tgJ/XSUzkBmZkMKagLaYhx84HhjmZoAfQnqOEoxUGfJRPLLn8N/i0aEMo4QcOBxAqsBS99cxenJN0Bq3wTvo697OLJh5DecY9RIWJiVnmbtB3Mj4bTrDGh77cuvnf42VyViIGxgBebgHOkTELdbi6HGnQq59v1jXxc4l5zc5AoO0T3navwMaE3pRAeySiT6pMcCrIYQdMZwJfpv1hIhAnkShxuO2La91Zk53cNoEndIR/Ocuz1q7qFTfJGJhAL8YKTTd8GE/Apc4l6ZpXZbGY8en5w2t5gDFgUEg9cPkOtUBwriqydVYvBQchkcUMFWVwCB5U8wq/QNDdw57JbQMUK4ZWN4=
   file: version.php
+  # skip_cleanup: true
+  # on:
+    # tags: true
